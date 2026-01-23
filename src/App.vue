@@ -42,6 +42,9 @@ A Single File Component encapsulates all component logic in one file with three 
 
     // importing computed property practice
     import Computed_Property from './components/demos/Computed_Property.vue';
+
+    //importing Conditional Rendering
+    import Conditional_Rendering from './components/demos/Conditional_Rendering.vue';
 </script>
 
 <template>
@@ -56,4 +59,7 @@ A Single File Component encapsulates all component logic in one file with three 
 
    <!-- as expected we are rendering computed property here -->
    <Computed_Property/>
+
+   <!-- Just calling conitional rendering -->
+    <Conditional_Rendering />
 </template>
